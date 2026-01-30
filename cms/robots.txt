@@ -1,0 +1,5 @@
+Sitemap: User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.hieploipottery.com/cms/?feed=xmlsitemap22

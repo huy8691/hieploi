@@ -1,0 +1,13 @@
+[06-Jun-2024 01:08:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/hieploip/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/hieploip/public_html/wp-admin/includes/admin.php on line 16
+[29-Jun-2024 14:15:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/hieploip/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/hieploip/public_html/wp-admin/includes/admin.php on line 16
+[15-Jan-2025 02:09:06 America/Chicago] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home3/hieploip/public_html/wp-admin/includes/class-language-pack-upgrader-double.php(8) : eval()'d code on line 1
+[08-Apr-2025 21:39:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home3/hieploip/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/hieploip/public_html/wp-admin/includes/admin.php on line 16

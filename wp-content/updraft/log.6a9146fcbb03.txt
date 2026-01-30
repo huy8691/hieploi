@@ -1,0 +1,634 @@
+0000.000 (0) Opened log file at time: Mon, 28 Nov 2022 03:06:19 +0000 on https://www.hieploipottery.com
+0000.010 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.22.12.25 WP: 6.1.1 PHP: 8.0.12 (litespeed, Linux php-usum-00001.nhanhoa 4.18.0-348.7.1.el8_5.x86_64 #1 SMP Wed Dec 22 13:25:12 UTC 2021 x86_64) MySQL: 10.3.28-MariaDB (max packet size=16777216) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 300M (used: 66.2M | 36M) multisite: N openssl: OpenSSL 1.1.1g FIPS  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 83709.2 MB
+0000.024 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.038 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.063 (0) Set semaphore last lock (fd) time to 2022-11-28 03:06:19
+0000.070 (0) Semaphore lock (fd) complete
+0000.092 (0) Backup run: resumption=0, nonce=6a9146fcbb03, file_nonce=6a9146fcbb03 begun at=1669604779 (0s ago), job type=backup
+0000.106 (0) Scheduling a resumption (1) after 300 seconds (1669605079) in case this run gets aborted
+0000.135 (0) PHP event: code E_WARNING: file_exists(): open_basedir restriction in effect. File(/proc/user_beancounters) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 140, wp-content/plugins/updraftplus/backup.php)
+0000.142 (0) Checking if we have a zip executable available
+0000.149 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.156 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.164 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.171 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.177 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.183 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/zip) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1754, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.196 (0) Creation of backups of directories: beginning
+0000.215 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.224 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 383, wp-content/plugins/updraftplus/class-updraftplus.php)
+0012.505 (0) Total entities for the zip file: 3459 directories, 15438 files (0 skipped as non-modified), 163.7 MB
+0012.535 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0012.742 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 100 files added (on-disk size: 668.3 KB)
+0012.792 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 200 files added (on-disk size: 668.3 KB)
+0012.864 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 300 files added (on-disk size: 668.3 KB)
+0012.951 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 400 files added (on-disk size: 668.3 KB)
+0013.026 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 500 files added (on-disk size: 668.3 KB)
+0013.098 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 600 files added (on-disk size: 668.3 KB)
+0013.162 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 700 files added (on-disk size: 668.3 KB)
+0013.220 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 800 files added (on-disk size: 668.3 KB)
+0013.291 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 900 files added (on-disk size: 668.3 KB)
+0013.364 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1000 files added (on-disk size: 668.3 KB)
+0013.372 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.5 MB, 15438 files batched, 1001 (1002) added so far); re-opening (prior size: 668.3 KB)
+0014.469 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1100 files added (on-disk size: 3704.1 KB)
+0014.540 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1200 files added (on-disk size: 3704.1 KB)
+0014.604 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1300 files added (on-disk size: 3704.1 KB)
+0014.661 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1400 files added (on-disk size: 3704.1 KB)
+0014.725 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1500 files added (on-disk size: 3704.1 KB)
+0014.774 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1600 files added (on-disk size: 3704.1 KB)
+0014.828 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1700 files added (on-disk size: 3704.1 KB)
+0014.882 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1800 files added (on-disk size: 3704.1 KB)
+0014.932 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 1900 files added (on-disk size: 3704.1 KB)
+0014.977 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2000 files added (on-disk size: 3704.1 KB)
+0014.988 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.9 MB, 15438 files batched, 1001 (2003) added so far); re-opening (prior size: 3704.1 KB)
+0015.848 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2100 files added (on-disk size: 6772.3 KB)
+0015.897 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2200 files added (on-disk size: 6772.3 KB)
+0015.938 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2300 files added (on-disk size: 6772.3 KB)
+0015.989 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2400 files added (on-disk size: 6772.3 KB)
+0016.050 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2500 files added (on-disk size: 6772.3 KB)
+0016.128 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2600 files added (on-disk size: 6772.3 KB)
+0016.182 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2700 files added (on-disk size: 6772.3 KB)
+0016.233 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2800 files added (on-disk size: 6772.3 KB)
+0016.283 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 2900 files added (on-disk size: 6772.3 KB)
+0016.334 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3000 files added (on-disk size: 6772.3 KB)
+0016.352 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.6 MB, 15438 files batched, 1001 (3004) added so far); re-opening (prior size: 6772.3 KB)
+0017.697 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3100 files added (on-disk size: 9855.8 KB)
+0017.749 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3200 files added (on-disk size: 9855.8 KB)
+0017.806 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3300 files added (on-disk size: 9855.8 KB)
+0017.850 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3400 files added (on-disk size: 9855.8 KB)
+0017.902 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3500 files added (on-disk size: 9855.8 KB)
+0017.954 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3600 files added (on-disk size: 9855.8 KB)
+0018.004 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3700 files added (on-disk size: 9855.8 KB)
+0018.049 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3800 files added (on-disk size: 9855.8 KB)
+0018.099 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 3900 files added (on-disk size: 9855.8 KB)
+0018.150 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4000 files added (on-disk size: 9855.8 KB)
+0018.158 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.8 MB, 15438 files batched, 1001 (4005) added so far); re-opening (prior size: 9855.8 KB)
+0019.792 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4100 files added (on-disk size: 16484.7 KB)
+0019.844 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4200 files added (on-disk size: 16484.7 KB)
+0019.927 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4300 files added (on-disk size: 16484.7 KB)
+0019.981 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4400 files added (on-disk size: 16484.7 KB)
+0020.042 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4500 files added (on-disk size: 16484.7 KB)
+0020.107 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4600 files added (on-disk size: 16484.7 KB)
+0020.167 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4700 files added (on-disk size: 16484.7 KB)
+0020.226 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4800 files added (on-disk size: 16484.7 KB)
+0020.289 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 4900 files added (on-disk size: 16484.7 KB)
+0020.347 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5000 files added (on-disk size: 16484.7 KB)
+0020.358 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.5 MB, 15438 files batched, 1001 (5006) added so far); re-opening (prior size: 16484.7 KB)
+0021.949 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5100 files added (on-disk size: 19460.5 KB)
+0022.008 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5200 files added (on-disk size: 19460.5 KB)
+0022.063 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5300 files added (on-disk size: 19460.5 KB)
+0022.127 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5400 files added (on-disk size: 19460.5 KB)
+0022.180 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5500 files added (on-disk size: 19460.5 KB)
+0022.240 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5600 files added (on-disk size: 19460.5 KB)
+0022.305 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5700 files added (on-disk size: 19460.5 KB)
+0022.563 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5800 files added (on-disk size: 19460.5 KB)
+0022.675 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 5900 files added (on-disk size: 19460.5 KB)
+0022.818 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6000 files added (on-disk size: 19460.5 KB)
+0022.827 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.1 MB, 15438 files batched, 1001 (6007) added so far); re-opening (prior size: 19460.5 KB)
+0024.219 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6100 files added (on-disk size: 24381.4 KB)
+0024.274 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6200 files added (on-disk size: 24381.4 KB)
+0024.330 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6300 files added (on-disk size: 24381.4 KB)
+0024.384 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6400 files added (on-disk size: 24381.4 KB)
+0024.439 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6500 files added (on-disk size: 24381.4 KB)
+0024.497 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6600 files added (on-disk size: 24381.4 KB)
+0024.560 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6700 files added (on-disk size: 24381.4 KB)
+0024.622 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6800 files added (on-disk size: 24381.4 KB)
+0025.135 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 6900 files added (on-disk size: 24381.4 KB)
+0025.203 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7000 files added (on-disk size: 24381.4 KB)
+0025.218 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.7 MB, 15438 files batched, 1001 (7008) added so far); re-opening (prior size: 24381.4 KB)
+0026.958 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7100 files added (on-disk size: 26372.2 KB)
+0027.018 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7200 files added (on-disk size: 26372.2 KB)
+0027.079 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7300 files added (on-disk size: 26372.2 KB)
+0027.145 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7400 files added (on-disk size: 26372.2 KB)
+0027.211 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7500 files added (on-disk size: 26372.2 KB)
+0027.258 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7600 files added (on-disk size: 26372.2 KB)
+0027.305 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7700 files added (on-disk size: 26372.2 KB)
+0027.357 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7800 files added (on-disk size: 26372.2 KB)
+0027.779 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 7900 files added (on-disk size: 26372.2 KB)
+0027.851 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8000 files added (on-disk size: 26372.2 KB)
+0027.863 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 15438 files batched, 1001 (8009) added so far); re-opening (prior size: 26372.2 KB)
+0029.541 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8100 files added (on-disk size: 28775.9 KB)
+0029.835 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8200 files added (on-disk size: 28775.9 KB)
+0029.887 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8300 files added (on-disk size: 28775.9 KB)
+0029.939 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8400 files added (on-disk size: 28775.9 KB)
+0030.359 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8500 files added (on-disk size: 28775.9 KB)
+0030.414 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8600 files added (on-disk size: 28775.9 KB)
+0030.478 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8700 files added (on-disk size: 28775.9 KB)
+0030.545 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8800 files added (on-disk size: 28775.9 KB)
+0030.626 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 8900 files added (on-disk size: 28775.9 KB)
+0030.687 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9000 files added (on-disk size: 28775.9 KB)
+0030.702 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.6 MB, 15438 files batched, 1001 (9010) added so far); re-opening (prior size: 28775.9 KB)
+0032.009 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9100 files added (on-disk size: 32099.8 KB)
+0032.070 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9200 files added (on-disk size: 32099.8 KB)
+0032.136 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9300 files added (on-disk size: 32099.8 KB)
+0032.217 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9400 files added (on-disk size: 32099.8 KB)
+0032.293 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9500 files added (on-disk size: 32099.8 KB)
+0032.372 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9600 files added (on-disk size: 32099.8 KB)
+0032.443 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9700 files added (on-disk size: 32099.8 KB)
+0032.870 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9800 files added (on-disk size: 32099.8 KB)
+0032.943 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 9900 files added (on-disk size: 32099.8 KB)
+0033.029 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10000 files added (on-disk size: 32099.8 KB)
+0033.047 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (2.1 MB, 15438 files batched, 1001 (10011) added so far); re-opening (prior size: 32099.8 KB)
+0034.135 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10100 files added (on-disk size: 33180.6 KB)
+0034.205 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10200 files added (on-disk size: 33180.6 KB)
+0034.643 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10300 files added (on-disk size: 33180.6 KB)
+0034.802 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10400 files added (on-disk size: 33180.6 KB)
+0034.861 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10500 files added (on-disk size: 33180.6 KB)
+0034.923 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10600 files added (on-disk size: 33180.6 KB)
+0034.983 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10700 files added (on-disk size: 33180.6 KB)
+0035.039 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10800 files added (on-disk size: 33180.6 KB)
+0035.410 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 10900 files added (on-disk size: 33180.6 KB)
+0035.469 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11000 files added (on-disk size: 33180.6 KB)
+0035.482 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.8 MB, 15438 files batched, 1001 (11012) added so far); re-opening (prior size: 33180.6 KB)
+0036.210 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11100 files added (on-disk size: 34385.2 KB)
+0036.263 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11200 files added (on-disk size: 34385.2 KB)
+0036.312 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11300 files added (on-disk size: 34385.2 KB)
+0036.368 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11400 files added (on-disk size: 34385.2 KB)
+0036.429 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11500 files added (on-disk size: 34385.2 KB)
+0036.476 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11600 files added (on-disk size: 34385.2 KB)
+0036.530 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11700 files added (on-disk size: 34385.2 KB)
+0036.603 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11800 files added (on-disk size: 34385.2 KB)
+0036.868 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 11900 files added (on-disk size: 34385.2 KB)
+0036.917 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12000 files added (on-disk size: 34385.2 KB)
+0036.929 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.3 MB, 15438 files batched, 1001 (12013) added so far); re-opening (prior size: 34385.2 KB)
+0038.019 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12100 files added (on-disk size: 36817.9 KB)
+0038.346 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12200 files added (on-disk size: 36817.9 KB)
+0038.417 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12300 files added (on-disk size: 36817.9 KB)
+0038.474 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12400 files added (on-disk size: 36817.9 KB)
+0038.522 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12500 files added (on-disk size: 36817.9 KB)
+0038.580 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12600 files added (on-disk size: 36817.9 KB)
+0038.634 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12700 files added (on-disk size: 36817.9 KB)
+0038.695 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12800 files added (on-disk size: 36817.9 KB)
+0039.015 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 12900 files added (on-disk size: 36817.9 KB)
+0039.063 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13000 files added (on-disk size: 36817.9 KB)
+0039.076 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.6 MB, 15438 files batched, 1001 (13014) added so far); re-opening (prior size: 36817.9 KB)
+0040.567 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13100 files added (on-disk size: 40866.3 KB)
+0040.615 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13200 files added (on-disk size: 40866.3 KB)
+0040.663 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13300 files added (on-disk size: 40866.3 KB)
+0040.718 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13400 files added (on-disk size: 40866.3 KB)
+0040.786 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13500 files added (on-disk size: 40866.3 KB)
+0040.844 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13600 files added (on-disk size: 40866.3 KB)
+0040.905 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13700 files added (on-disk size: 40866.3 KB)
+0040.970 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13800 files added (on-disk size: 40866.3 KB)
+0041.038 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 13900 files added (on-disk size: 40866.3 KB)
+0041.097 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14000 files added (on-disk size: 40866.3 KB)
+0041.113 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.9 MB, 15438 files batched, 1001 (14015) added so far); re-opening (prior size: 40866.3 KB)
+0043.348 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14100 files added (on-disk size: 45494.5 KB)
+0043.408 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14200 files added (on-disk size: 45494.5 KB)
+0043.484 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14300 files added (on-disk size: 45494.5 KB)
+0043.545 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14400 files added (on-disk size: 45494.5 KB)
+0043.618 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14500 files added (on-disk size: 45494.5 KB)
+0043.689 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14600 files added (on-disk size: 45494.5 KB)
+0043.752 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14700 files added (on-disk size: 45494.5 KB)
+0043.801 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14800 files added (on-disk size: 45494.5 KB)
+0043.857 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 14900 files added (on-disk size: 45494.5 KB)
+0043.909 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 15000 files added (on-disk size: 45494.5 KB)
+0043.923 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 15438 files batched, 1001 (15016) added so far); re-opening (prior size: 45494.5 KB)
+0045.223 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 15100 files added (on-disk size: 48548.6 KB)
+0045.273 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 15200 files added (on-disk size: 48548.6 KB)
+0045.335 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 15300 files added (on-disk size: 48548.6 KB)
+0045.419 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.tmp: 15400 files added (on-disk size: 48548.6 KB)
+0046.582 (0) Creating zip file manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.list-temp.tmp)
+0046.643 (0) Successfully created zip file manifest (size: 1434831)
+0047.239 (0) Created plugins zip (0) - 50276.1 KB in 47 s (1070.3 KB/s) (sha1: 8604251a5af71322634fce12432d9c3c6c99e554, sha256: b779537cdee4b41716a0331a216b5aefed2e8ff430d1e50aec0c79a7a71e09f6)
+0047.254 (0) Beginning creation of dump of themes (split every: 400 MB)
+0047.266 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 383, wp-content/plugins/updraftplus/class-updraftplus.php)
+0048.009 (0) Total entities for the zip file: 316 directories, 841 files (0 skipped as non-modified), 29.8 MB
+0048.061 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0048.147 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0048.210 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0048.267 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0048.326 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0048.374 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0048.429 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0048.474 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0048.487 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25 MB, 841 files batched, 813 (813) added so far); re-opening (prior size: 0 KB)
+0050.340 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 4 s, rate: 6370.8 KB/s)
+0050.355 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.0257370471954, normalised_time=4.018357601041, max_time=50.346809864044, data points known=1, old_max_bytes=26214400, new_max_bytes=197067291)
+0050.753 (0) Creating zip file manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.list-temp.tmp)
+0050.763 (0) Successfully created zip file manifest (size: 70432)
+0050.969 (0) Created themes zip (0) - 13756.6 KB in 3.7 s (3722.2 KB/s) (sha1: 5389570aaecf55b6ebfbb414a99325829038ced4, sha256: feb0b42a012d178b829b2c679ca1368baff31ddf456123e221637ee529a9774c)
+0050.984 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0050.990 (0) Looking for candidates to backup in: /home/hieploipottery.com/public_html/wp-content/uploads
+0050.996 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (1)
+0051.004 (0) finding files: astra: adding to list (2)
+0051.011 (0) finding files: 2021: adding to list (3)
+0051.018 (0) finding files: jet-menu: adding to list (4)
+0051.026 (0) finding files: wpseo-redirects: adding to list (5)
+0051.033 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (6)
+0051.043 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (7)
+0051.050 (0) finding files: wc-logs: adding to list (8)
+0051.056 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (9)
+0051.061 (0) finding files: elementor: adding to list (10)
+0051.067 (0) finding files: astra-addon: adding to list (11)
+0051.072 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (12)
+0051.078 (0) finding files: 2022: adding to list (13)
+0051.084 (0) finding files: woocommerce-placeholder.png: adding to list (14)
+0051.090 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (15)
+0051.096 (0) finding files: woocommerce_uploads: adding to list (16)
+0051.102 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0051.113 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 383, wp-content/plugins/updraftplus/class-updraftplus.php)
+0051.460 (0) Total entities for the zip file: 14 directories, 766 files (0 skipped as non-modified), 148.3 MB
+0051.504 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0051.547 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0051.590 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0051.631 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0051.677 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0051.718 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0051.759 (0) Zip: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0053.093 (0) Creating zip file manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.list-temp.tmp)
+0053.112 (0) Successfully created zip file manifest (size: 41508)
+0054.941 (0) Created uploads zip (0) - 149932.2 KB in 3.8 s (39224.6 KB/s) (sha1: 65ad2dc87a3c9d83a7683c17cd2ca1ef9d44d97f, sha256: 09dbf41706a793210b40eeb9fbe274d036ebcce12a7ff92dbb07de652a8c92a1)
+0054.949 (0) No backup of wpcore: excluded by user's options
+0054.961 (0) Beginning backup of other directories found in the content directory (index: 0)
+0054.969 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0055.028 (0) Looking for candidates to backup in: /home/hieploipottery.com/public_html/wp-content
+0055.038 (0) finding files: plugins: skipping: this is the plugins directory
+0055.045 (0) finding files: themes: skipping: this is the themes directory
+0055.052 (0) finding files: debug.log: skipping: excluded by options
+0055.058 (0) finding files: languages: adding to list (1)
+0055.065 (0) finding files: index.php: adding to list (2)
+0055.071 (0) finding files: uploads: skipping: this is the uploads directory
+0055.077 (0) finding files: updraft: skipping: this is the updraft directory
+0055.084 (0) finding files: upgrade: skipping: excluded by options
+0055.094 (0) PHP event: code E_WARNING: is_dir(): open_basedir restriction in effect. File(/usr/local/cpanel) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 383, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.136 (0) Total entities for the zip file: 3 directories, 69 files (0 skipped as non-modified), 2.7 MB
+0055.491 (0) Creating zip file manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-others.zip.list-temp.tmp)
+0055.499 (0) Successfully created zip file manifest (size: 3865)
+0055.538 (0) Created others zip (0) - 732.4 KB in 0.4 s (1687.9 KB/s) (sha1: 15ce1790cff5fda0d69ed322dab22f5890f7f5ff, sha256: 1b6df536faa1d4ed543dd6c2dfc8b4871d689b2d8a3a31afd114a3c6e1cad8b8)
+0055.547 (0) No backup of more: excluded by user's options
+0055.573 (0) Saving backup status to database (elements: 8)
+0055.587 (0) Beginning creation of database dump (WordPress DB)
+0055.594 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0055.607 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.614 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.622 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/local/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.628 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/sfw/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.634 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/usr/xdg4/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.641 (0) PHP event: code E_WARNING: is_executable(): open_basedir restriction in effect. File(/opt/bin/mysqldump) is not within the allowed path(s): (/tmp:/home/hieploipottery.com/) (line 1637, wp-content/plugins/updraftplus/class-updraftplus.php)
+0055.690 (0) Table wp_options: Total expected rows (via COUNT): 582
+0055.882 (0) Table wp_options: Rows added in this batch (next record: 9371): 578 (uncompressed bytes in this segment=4018687) in 0.21 seconds
+0055.913 (0) Table wp_options: finishing file(s) (2, 747.8 KB)
+0055.929 (0) Table wp_users: Total expected rows (via COUNT): 2
+0055.936 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.949 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1650) in 0.02 seconds
+0055.968 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0055.991 (0) Table wp_usermeta: Total expected rows (via COUNT): 103
+0056.000 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.015 (0) Table wp_usermeta: Rows added in this batch (next record: 115): 103 (uncompressed bytes in this segment=38262) in 0.03 seconds
+0056.042 (0) Table wp_usermeta: finishing file(s) (2, 5.7 KB)
+0056.067 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 89
+0056.074 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.090 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 181): 89 (uncompressed bytes in this segment=33148) in 0.03 seconds
+0056.120 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 3.4 KB)
+0056.145 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0056.158 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.01 seconds
+0056.180 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0056.199 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0056.210 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.224 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=736) in 0.03 seconds
+0056.269 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0056.305 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 265
+0056.312 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.329 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 265): 265 (uncompressed bytes in this segment=23750) in 0.02 seconds
+0056.349 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 3.1 KB)
+0056.374 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0056.390 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=696) in 0.03 seconds
+0056.419 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0056.434 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0056.449 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1744) in 0.02 seconds
+0056.471 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0056.486 (0) Table wp_links: Total expected rows (via COUNT): 0
+0056.494 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1306) in 0.01 seconds
+0056.517 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0056.556 (0) Table wp_postmeta: Total expected rows (approximate): 5428
+0056.759 (0) Table wp_postmeta: Rows added in this batch (next record: 8621): 7281 (uncompressed bytes in this segment=6736940) in 0.23 seconds
+0056.789 (0) Table wp_postmeta: finishing file(s) (2, 343.6 KB)
+0056.860 (0) Table wp_posts: Total expected rows (via COUNT): 961
+0056.932 (0) Table wp_posts: Rows added in this batch (next record: 1019): 961 (uncompressed bytes in this segment=2750665) in 0.08 seconds
+0056.966 (0) Table wp_posts: finishing file(s) (2, 107.8 KB)
+0056.981 (0) Table wp_term_relationships: Total expected rows (approximate): 114
+0056.995 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 122 (uncompressed bytes in this segment=2454) in 0.02 seconds
+0057.016 (0) Table wp_term_relationships: finishing file(s) (2, 0.7 KB)
+0057.039 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 24
+0057.045 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.063 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1910) in 0.03 seconds
+0057.092 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0057.114 (0) Table wp_termmeta: Total expected rows (via COUNT): 8
+0057.120 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.131 (0) Table wp_termmeta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1168) in 0.02 seconds
+0057.165 (0) Table wp_termmeta: finishing file(s) (2, 0.6 KB)
+0057.180 (0) Table wp_terms: Total expected rows (via COUNT): 24
+0057.187 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.195 (0) Table wp_terms: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1597) in 0.02 seconds
+0057.223 (0) Table wp_terms: finishing file(s) (2, 0.7 KB)
+0057.240 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 2
+0057.255 (0) Table wp_wc_category_lookup: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=596) in 0.02 seconds
+0057.275 (0) Table wp_wc_category_lookup: finishing file(s) (2, 0.3 KB)
+0057.299 (0) Table wp_wc_product_meta_lookup: Total expected rows (via COUNT): 56
+0057.311 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.325 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (next record: 747): 56 (uncompressed bytes in this segment=6249) in 0.03 seconds
+0057.346 (0) Table wp_wc_product_meta_lookup: finishing file(s) (2, 0.8 KB)
+0057.360 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0057.375 (0) Table wp_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=659) in 0.02 seconds
+0057.395 (0) Table wp_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0057.410 (0) Table wp_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0057.417 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.430 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=800) in 0.02 seconds
+0057.452 (0) Table wp_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0057.476 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0057.489 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=772) in 0.02 seconds
+0057.518 (0) Table wp_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0057.540 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0057.547 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=799) in 0.01 seconds
+0057.573 (0) Table wp_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0057.587 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0057.601 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=542) in 0.02 seconds
+0057.628 (0) Table wp_e_events: finishing file(s) (2, 0.4 KB)
+0057.641 (0) Table wp_e_submissions: Total expected rows (via COUNT): 8
+0057.647 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.659 (0) Table wp_e_submissions: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=6008) in 0.02 seconds
+0057.678 (0) Table wp_e_submissions: finishing file(s) (2, 1.5 KB)
+0057.692 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 6
+0057.698 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.705 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=2297) in 0.01 seconds
+0057.724 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0057.746 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 36
+0057.752 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.765 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 36): 36 (uncompressed bytes in this segment=2706) in 0.03 seconds
+0057.791 (0) Table wp_e_submissions_values: finishing file(s) (2, 1.1 KB)
+0057.810 (0) Table wp_eum_logs: Total expected rows (via COUNT): 7
+0057.817 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.833 (0) Table wp_eum_logs: Rows added in this batch (next record: 7): 7 (uncompressed bytes in this segment=1737) in 0.03 seconds
+0057.855 (0) Table wp_eum_logs: finishing file(s) (2, 0.6 KB)
+0057.875 (0) Table wp_jet_post_types: Total expected rows (via COUNT): 0
+0057.888 (0) Table wp_jet_post_types: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=747) in 0.02 seconds
+0057.923 (0) Table wp_jet_post_types: finishing file(s) (2, 0.3 KB)
+0057.944 (0) Table wp_jet_smart_filters_indexer: Total expected rows (via COUNT): 0
+0057.951 (0) Table wp_jet_smart_filters_indexer: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.01 seconds
+0057.976 (0) Table wp_jet_smart_filters_indexer: finishing file(s) (2, 0.3 KB)
+0057.998 (0) Table wp_jet_taxonomies: Total expected rows (via COUNT): 0
+0058.005 (0) Table wp_jet_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=813) in 0.02 seconds
+0058.033 (0) Table wp_jet_taxonomies: finishing file(s) (2, 0.4 KB)
+0058.066 (0) Table wp_wc_admin_note_actions: Total expected rows (via COUNT): 45
+0058.073 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.088 (0) Table wp_wc_admin_note_actions: Rows added in this batch (next record: 1099): 45 (uncompressed bytes in this segment=8521) in 0.03 seconds
+0058.114 (0) Table wp_wc_admin_note_actions: finishing file(s) (2, 1.9 KB)
+0058.136 (0) Table wp_wc_admin_notes: Total expected rows (via COUNT): 38
+0058.145 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.159 (0) Table wp_wc_admin_notes: Rows added in this batch (next record: 51): 38 (uncompressed bytes in this segment=19115) in 0.03 seconds
+0058.189 (0) Table wp_wc_admin_notes: finishing file(s) (2, 5 KB)
+0058.203 (0) Table wp_wc_customer_lookup: Total expected rows (via COUNT): 0
+0058.219 (0) Table wp_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1230) in 0.02 seconds
+0058.238 (0) Table wp_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0058.259 (0) Table wp_wc_download_log: Total expected rows (via COUNT): 0
+0058.270 (0) Table wp_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0058.295 (0) Table wp_wc_download_log: finishing file(s) (2, 0.4 KB)
+0058.311 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0058.318 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=711) in 0.01 seconds
+0058.339 (0) Table wp_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0058.355 (0) Table wp_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0058.363 (0) Table wp_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1211) in 0.01 seconds
+0058.385 (0) Table wp_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0058.400 (0) Table wp_wc_order_stats: Total expected rows (via COUNT): 0
+0058.408 (0) Table wp_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1102) in 0.01 seconds
+0058.429 (0) Table wp_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0058.443 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0058.451 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=789) in 0.01 seconds
+0058.471 (0) Table wp_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0058.485 (0) Table wp_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0058.492 (0) Table wp_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=854) in 0.01 seconds
+0058.512 (0) Table wp_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0058.540 (0) Table wp_wc_product_download_directories: Total expected rows (via COUNT): 2
+0058.546 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.558 (0) Table wp_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=923) in 0.02 seconds
+0058.576 (0) Table wp_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0058.590 (0) Table wp_wc_rate_limits: Total expected rows (via COUNT): 0
+0058.603 (0) Table wp_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0058.623 (0) Table wp_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0058.637 (0) Table wp_wc_webhooks: Total expected rows (via COUNT): 0
+0058.644 (0) Table wp_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1202) in 0.01 seconds
+0058.663 (0) Table wp_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0058.685 (0) Table wp_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0058.692 (0) Table wp_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1031) in 0.02 seconds
+0058.718 (0) Table wp_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0058.734 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0058.742 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=939) in 0.01 seconds
+0058.763 (0) Table wp_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0058.779 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0058.788 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1514) in 0.01 seconds
+0058.808 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0058.831 (0) Table wp_woocommerce_log: Total expected rows (via COUNT): 0
+0058.837 (0) Table wp_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=719) in 0.01 seconds
+0058.863 (0) Table wp_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0058.880 (0) Table wp_woocommerce_order_items: Total expected rows (via COUNT): 0
+0058.887 (0) Table wp_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.01 seconds
+0058.908 (0) Table wp_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0058.926 (0) Table wp_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0058.934 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=821) in 0.01 seconds
+0058.956 (0) Table wp_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0058.978 (0) Table wp_woocommerce_sessions: Total expected rows (via COUNT): 2
+0058.984 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0058.997 (0) Table wp_woocommerce_sessions: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=3571) in 0.03 seconds
+0059.024 (0) Table wp_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0059.039 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0059.052 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=862) in 0.01 seconds
+0059.073 (0) Table wp_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0059.085 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0059.092 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=765) in 0.01 seconds
+0059.110 (0) Table wp_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0059.124 (0) Table wp_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0059.130 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=625) in 0.01 seconds
+0059.153 (0) Table wp_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0059.169 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0059.176 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=836) in 0.01 seconds
+0059.197 (0) Table wp_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0059.215 (0) Table wp_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0059.225 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1273) in 0.01 seconds
+0059.247 (0) Table wp_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0059.273 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 260
+0059.280 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.308 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 278): 260 (uncompressed bytes in this segment=160858) in 0.05 seconds
+0059.336 (0) Table wp_yoast_indexable: finishing file(s) (2, 18 KB)
+0059.352 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 140
+0059.367 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 140 (uncompressed bytes in this segment=3122) in 0.02 seconds
+0059.387 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.7 KB)
+0059.402 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 25
+0059.413 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.426 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1249) in 0.03 seconds
+0059.445 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0059.461 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 27
+0059.467 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.473 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=3073) in 0.01 seconds
+0059.495 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.8 KB)
+0059.511 (0) Table wp_yoast_prominent_words: Total expected rows (via COUNT): 0
+0059.525 (0) Table wp_yoast_prominent_words: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=675) in 0.01 seconds
+0059.545 (0) Table wp_yoast_prominent_words: finishing file(s) (2, 0.4 KB)
+0059.563 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 46
+0059.569 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0059.584 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 299): 46 (uncompressed bytes in this segment=7196) in 0.02 seconds
+0059.605 (0) Table wp_yoast_seo_links: finishing file(s) (2, 1.5 KB)
+0059.611 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/hieploipottery.com/public_html/wp-content/updraft/backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db.gz (line 1884, wp-content/plugins/updraftplus/backup.php)
+0059.619 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_options.table.tmpr9372.gz (1/60/fopen): adding to final database dump
+0059.638 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_options.table.gz (2/60/fopen): adding to final database dump
+0059.646 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_users.table.tmpr3.gz (3/60/fopen): adding to final database dump
+0059.653 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_users.table.gz (4/60/fopen): adding to final database dump
+0059.659 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_usermeta.table.tmpr116.gz (5/60/fopen): adding to final database dump
+0059.666 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_usermeta.table.gz (6/60/fopen): adding to final database dump
+0059.673 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_actions.table.tmpr182.gz (7/60/fopen): adding to final database dump
+0059.679 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_actions.table.gz (8/60/fopen): adding to final database dump
+0059.686 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/60/fopen): adding to final database dump
+0059.693 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_claims.table.gz (10/60/fopen): adding to final database dump
+0059.700 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_groups.table.tmpr4.gz (11/60/fopen): adding to final database dump
+0059.706 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_groups.table.gz (12/60/fopen): adding to final database dump
+0059.712 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_logs.table.tmpr266.gz (13/60/fopen): adding to final database dump
+0059.719 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_actionscheduler_logs.table.gz (14/60/fopen): adding to final database dump
+0059.725 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_commentmeta.table.tmpr0.gz (15/60/fopen): adding to final database dump
+0059.731 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_commentmeta.table.gz (16/60/fopen): adding to final database dump
+0059.738 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_comments.table.tmpr0.gz (17/60/fopen): adding to final database dump
+0059.746 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_comments.table.gz (18/60/fopen): adding to final database dump
+0059.757 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_links.table.tmpr0.gz (19/60/fopen): adding to final database dump
+0059.767 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_links.table.gz (20/60/fopen): adding to final database dump
+0059.773 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_postmeta.table.tmpr8622.gz (21/60/fopen): adding to final database dump
+0059.785 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_postmeta.table.gz (22/60/fopen): adding to final database dump
+0059.791 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_posts.table.tmpr1020.gz (23/60/fopen): adding to final database dump
+0059.799 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_posts.table.gz (24/60/fopen): adding to final database dump
+0059.804 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_term_relationships.table.tmpr100001.gz (25/60/fopen): adding to final database dump
+0059.814 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_term_relationships.table.gz (26/60/fopen): adding to final database dump
+0059.824 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_term_taxonomy.table.tmpr25.gz (27/60/fopen): adding to final database dump
+0059.830 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_term_taxonomy.table.gz (28/60/fopen): adding to final database dump
+0059.836 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_termmeta.table.tmpr9.gz (29/60/fopen): adding to final database dump
+0059.843 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_termmeta.table.gz (30/60/fopen): adding to final database dump
+0059.850 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_terms.table.tmpr25.gz (31/60/fopen): adding to final database dump
+0059.857 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_terms.table.gz (32/60/fopen): adding to final database dump
+0059.864 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_category_lookup.table.tmpr1001.gz (33/60/fopen): adding to final database dump
+0059.870 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_category_lookup.table.gz (34/60/fopen): adding to final database dump
+0059.876 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_meta_lookup.table.tmpr748.gz (35/60/fopen): adding to final database dump
+0059.883 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_meta_lookup.table.gz (36/60/fopen): adding to final database dump
+0059.890 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_reserved_stock.table.tmpr1.gz (37/60/fopen): adding to final database dump
+0059.896 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_reserved_stock.table.gz (38/60/fopen): adding to final database dump
+0059.902 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_tax_rate_classes.table.tmpr3.gz (39/60/fopen): adding to final database dump
+0059.909 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_tax_rate_classes.table.gz (40/60/fopen): adding to final database dump
+0059.916 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_order_itemmeta.table.tmpr0.gz (41/60/fopen): adding to final database dump
+0059.924 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_order_itemmeta.table.gz (42/60/fopen): adding to final database dump
+0059.931 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_payment_tokenmeta.table.tmpr0.gz (43/60/fopen): adding to final database dump
+0059.939 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_payment_tokenmeta.table.gz (44/60/fopen): adding to final database dump
+0059.946 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_events.table.tmpr0.gz (45/60/fopen): adding to final database dump
+0059.953 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_events.table.gz (46/60/fopen): adding to final database dump
+0059.960 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions.table.tmpr9.gz (47/60/fopen): adding to final database dump
+0059.966 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions.table.gz (48/60/fopen): adding to final database dump
+0059.974 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions_actions_log.table.tmpr7.gz (49/60/fopen): adding to final database dump
+0059.981 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions_actions_log.table.gz (50/60/fopen): adding to final database dump
+0059.987 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions_values.table.tmpr37.gz (51/60/fopen): adding to final database dump
+0059.993 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_e_submissions_values.table.gz (52/60/fopen): adding to final database dump
+0059.999 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_eum_logs.table.tmpr8.gz (53/60/fopen): adding to final database dump
+0060.005 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_eum_logs.table.gz (54/60/fopen): adding to final database dump
+0060.011 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_post_types.table.tmpr0.gz (55/60/fopen): adding to final database dump
+0060.017 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_post_types.table.gz (56/60/fopen): adding to final database dump
+0060.024 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_smart_filters_indexer.table.tmpr0.gz (57/60/fopen): adding to final database dump
+0060.030 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_smart_filters_indexer.table.gz (58/60/fopen): adding to final database dump
+0060.037 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_taxonomies.table.tmpr0.gz (59/60/fopen): adding to final database dump
+0060.043 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_jet_taxonomies.table.gz (60/60/fopen): adding to final database dump
+0060.050 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_admin_note_actions.table.tmpr1100.gz (61/60/fopen): adding to final database dump
+0060.057 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_admin_note_actions.table.gz (62/60/fopen): adding to final database dump
+0060.063 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_admin_notes.table.tmpr52.gz (63/60/fopen): adding to final database dump
+0060.070 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_admin_notes.table.gz (64/60/fopen): adding to final database dump
+0060.083 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_customer_lookup.table.tmpr0.gz (65/60/fopen): adding to final database dump
+0060.090 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_customer_lookup.table.gz (66/60/fopen): adding to final database dump
+0060.096 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_download_log.table.tmpr0.gz (67/60/fopen): adding to final database dump
+0060.102 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_download_log.table.gz (68/60/fopen): adding to final database dump
+0060.110 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_coupon_lookup.table.tmpr1.gz (69/60/fopen): adding to final database dump
+0060.118 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_coupon_lookup.table.gz (70/60/fopen): adding to final database dump
+0060.125 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_product_lookup.table.tmpr0.gz (71/60/fopen): adding to final database dump
+0060.131 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_product_lookup.table.gz (72/60/fopen): adding to final database dump
+0060.138 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_stats.table.tmpr0.gz (73/60/fopen): adding to final database dump
+0060.146 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_stats.table.gz (74/60/fopen): adding to final database dump
+0060.152 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_tax_lookup.table.tmpr1.gz (75/60/fopen): adding to final database dump
+0060.162 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_order_tax_lookup.table.gz (76/60/fopen): adding to final database dump
+0060.170 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_attributes_lookup.table.tmpr1.gz (77/60/fopen): adding to final database dump
+0060.179 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_attributes_lookup.table.gz (78/60/fopen): adding to final database dump
+0060.185 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_download_directories.table.tmpr3.gz (79/60/fopen): adding to final database dump
+0060.192 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_product_download_directories.table.gz (80/60/fopen): adding to final database dump
+0060.199 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_rate_limits.table.tmpr0.gz (81/60/fopen): adding to final database dump
+0060.206 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_rate_limits.table.gz (82/60/fopen): adding to final database dump
+0060.214 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_webhooks.table.tmpr0.gz (83/60/fopen): adding to final database dump
+0060.221 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_wc_webhooks.table.gz (84/60/fopen): adding to final database dump
+0060.232 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_api_keys.table.tmpr0.gz (85/60/fopen): adding to final database dump
+0060.237 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_api_keys.table.gz (86/60/fopen): adding to final database dump
+0060.243 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_attribute_taxonomies.table.tmpr0.gz (87/60/fopen): adding to final database dump
+0060.249 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_attribute_taxonomies.table.gz (88/60/fopen): adding to final database dump
+0060.255 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_downloadable_product_permissions.table.tmpr0.gz (89/60/fopen): adding to final database dump
+0060.262 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (90/60/fopen): adding to final database dump
+0060.268 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_log.table.tmpr0.gz (91/60/fopen): adding to final database dump
+0060.275 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_log.table.gz (92/60/fopen): adding to final database dump
+0060.281 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_order_items.table.tmpr0.gz (93/60/fopen): adding to final database dump
+0060.287 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_order_items.table.gz (94/60/fopen): adding to final database dump
+0060.293 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_payment_tokens.table.tmpr0.gz (95/60/fopen): adding to final database dump
+0060.304 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_payment_tokens.table.gz (96/60/fopen): adding to final database dump
+0060.311 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_sessions.table.tmpr5.gz (97/60/fopen): adding to final database dump
+0060.317 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_sessions.table.gz (98/60/fopen): adding to final database dump
+0060.323 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zone_locations.table.tmpr0.gz (99/60/fopen): adding to final database dump
+0060.337 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zone_locations.table.gz (100/60/fopen): adding to final database dump
+0060.343 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zone_methods.table.tmpr0.gz (101/60/fopen): adding to final database dump
+0060.350 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zone_methods.table.gz (102/60/fopen): adding to final database dump
+0060.356 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zones.table.tmpr0.gz (103/60/fopen): adding to final database dump
+0060.362 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_shipping_zones.table.gz (104/60/fopen): adding to final database dump
+0060.368 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_tax_rate_locations.table.tmpr0.gz (105/60/fopen): adding to final database dump
+0060.374 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_tax_rate_locations.table.gz (106/60/fopen): adding to final database dump
+0060.381 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_tax_rates.table.tmpr0.gz (107/60/fopen): adding to final database dump
+0060.388 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_woocommerce_tax_rates.table.gz (108/60/fopen): adding to final database dump
+0060.395 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_indexable.table.tmpr279.gz (109/60/fopen): adding to final database dump
+0060.403 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_indexable.table.gz (110/60/fopen): adding to final database dump
+0060.410 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (111/60/fopen): adding to final database dump
+0060.417 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_indexable_hierarchy.table.gz (112/60/fopen): adding to final database dump
+0060.423 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_migrations.table.tmpr26.gz (113/60/fopen): adding to final database dump
+0060.430 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_migrations.table.gz (114/60/fopen): adding to final database dump
+0060.438 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_primary_term.table.tmpr28.gz (115/60/fopen): adding to final database dump
+0060.444 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_primary_term.table.gz (116/60/fopen): adding to final database dump
+0060.451 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_prominent_words.table.tmpr0.gz (117/60/fopen): adding to final database dump
+0060.457 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_prominent_words.table.gz (118/60/fopen): adding to final database dump
+0060.463 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_seo_links.table.tmpr300.gz (119/60/fopen): adding to final database dump
+0060.470 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db-table-wp_yoast_seo_links.table.gz (120/60/fopen): adding to final database dump
+0060.481 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db.gz: finished writing out complete database file (1263 KB)
+0060.533 (0) Total database tables backed up: 60 (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db.gz, size: 1293375, sha1: ebaec976c4ea43da8a805806ea2fca12a94e16a8, sha256: d40be961773120c9e7e601e1b0bd50014eda2be9e2a8a5525685b65f13d6732a)
+0060.560 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0060.566 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0060.573 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0060.579 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-others.zip: others: This file has not yet been successfully uploaded: will queue
+0060.586 (0) backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db.gz: db: This file has not yet been successfully uploaded: will queue
+0060.592 (0) Saving backup history. Total backup size: 210.9 MB
+0060.606 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0060.626 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0060.633 (0) No remote despatch: user chose no remote backup service
+0060.640 (0) Recording as successfully uploaded: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip
+0060.652 (0) Deleting zip manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-plugins.zip.list.tmp)
+0060.660 (0) Recording as successfully uploaded: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip
+0060.683 (0) Deleting zip manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-themes.zip.list.tmp)
+0060.695 (0) Recording as successfully uploaded: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip
+0060.716 (0) Deleting zip manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-uploads.zip.list.tmp)
+0060.722 (0) Recording as successfully uploaded: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-others.zip
+0060.734 (0) Deleting zip manifest (backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-others.zip.list.tmp)
+0060.740 (0) Recording as successfully uploaded: backup_2022-11-28-0306_Hip_Li_Pottery_6a9146fcbb03-db.gz
+0060.761 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0060.769 (0) Number of backup sets in history: 2; groups (db): 1
+0060.776 (0) Examining (for databases) backup set with group_id=0, nonce=6a9146fcbb03, datestamp=1669604779 (Nov 28 2022 03:06:19)
+0060.783 (0) This backup set is the backup set just made, so will not be deleted.
+0060.783 (0) Examining (for databases) backup set with group_id=0, nonce=ff35dd729935, datestamp=1669552326 (Nov 27 2022 12:32:06)
+0060.783 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.791 (0) Number of backup sets in history: 2; groups (files): 1
+0060.797 (0) Examining (for files) backup set with nonce=6a9146fcbb03, datestamp=1669604779 (Nov 28 2022 03:06:19)
+0060.797 (0) This backup set is the backup set just made, so will not be deleted.
+0060.804 (0) This backup set is the backup set just made, so will not be deleted.
+0060.804 (0) This backup set is the backup set just made, so will not be deleted.
+0060.804 (0) This backup set is the backup set just made, so will not be deleted.
+0060.804 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.810 (0) Examining (for files) backup set with nonce=ff35dd729935, datestamp=1669552326 (Nov 27 2022 12:32:06)
+0060.810 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.811 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0060.824 (0) Resume backup (6a9146fcbb03, 0): finish run
+0060.841 (0) Decremented the semaphore (fd) by 1
+0060.853 (0) Semaphore (fd) unlocked
+0060.859 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0060.879 (0) No email will/can be sent - the user has not configured an email address.
+0060.885 (0) The backup apparently succeeded and is now complete
